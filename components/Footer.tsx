@@ -2,39 +2,39 @@ import Link from "next/link";
 import { FaLink, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { LuGithub } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
-import { SiBuymeacoffee } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
 import { GridPatternDashed } from "./ui/GridPatternDashed";
 
 const socials = [
   {
     name: "Github",
-    href: "https://github.com/tanishkadeep",
-    displayText: "tanishkadeep",
+    href: "https://github.com/lhcee3",
+    displayText: "lhcee3",
     icon: LuGithub,
   },
   {
     name: "Twitter",
-    href: "https://x.com/yestanishka",
-    displayText: "@yestanishka",
+    href: "https://x.com/lhcee3",
+    displayText: "@lhcee3",
     icon: FaXTwitter,
   },
+    {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/saianeeshg90/",
+    displayText: "Sai Aneesh",
+    icon: FaLinkedinIn,
+  },
   {
-    name: "Buy Me a Coffee",
-    href: "https://buymeacoffee.com/tanishkadeep",
-    displayText: "tanishkadeep",
-    icon: SiBuymeacoffee,
+    name: "Discord",
+    href: "https://leetcode.com/u/lhcee3/",
+    displayText: "Sai Aneesh",
+    icon: SiLeetcode,
   },
   {
     name: "Email",
-    href: "mailto:tanishkadeep09@gmail.com",
-    displayText: "tanishkadeep09@gmail.com",
+    href: "mailto:gspamad@gmail.com",
+    displayText: "gspamad@gmail.com",
     icon: MdOutlineEmail,
-  },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/tanishkadeep/",
-    displayText: "Tanishka Deep",
-    icon: FaLinkedinIn,
   },
 ];
 
