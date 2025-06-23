@@ -30,7 +30,7 @@ const projects = [
   {
     title: "Textre",
     description:
-      "A End to End Chat Application with real-time messaging, which doesn't need user authentication",
+      "A End to End Chat Application with real-time messaging, user authentication, and a modern UI, built with Next.js, Supabase, and Socket.io for seamless communication.",
     image: Textre,
     liveLink: "https://textre.vercel.app/",
     githubLink: "https://github.com/lhcee3/Textre",
