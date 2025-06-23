@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa6";
 import Image from "next/image";
+import Textre from "@/public/images/Textre.png";
 import Regal from "@/public/images/regal.png";
 import Bytes from "@/public/images/bytes.png";
 import ContiqAI from "@/public/images/contiqai.png";
@@ -16,7 +17,7 @@ const projects = [
     liveLink: "https://regal-estate.vercel.app/",
     githubLink: "https://github.com/tanishkadeep/Regal-Estate",
     tags: [
-      "MERN",
+      "Pussy",
       "Zod",
       "JWT",
       "TypeScript",
@@ -27,18 +28,18 @@ const projects = [
   },
 
   {
-    title: "ContiqAI",
+    title: "Textre",
     description:
-      "AI-powered tool to quickly create high-quality content for social media.",
-    image: ContiqAI,
-    liveLink: "https://contiq-ai.vercel.app/",
-    githubLink: "https://github.com/tanishkadeep/contiqAI",
+      "A End to End Chat Application with real-time messaging, which doesn't need user authentication",
+    image: Textre,
+    liveLink: "https://textre.vercel.app/",
+    githubLink: "https://github.com/lhcee3/Textre",
     tags: [
       "Next.js",
-      "PostgreSQL",
-      "Prisma",
-      "Google Gemini",
-      "Clerk",
+      "Supabase",
+      "Socket.io",
+      "Node.js",
+      "Tailwind CSS",
       "TypeScript",
       "shadcn/ui",
     ],
