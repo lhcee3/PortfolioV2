@@ -25,6 +25,10 @@ export default function Hero() {
         src={BGimage}
         alt="Background"
         className="absolute md:top-1/2 bottom-0"
+        priority
+        quality={75}
+        placeholder="blur"
+        sizes="100vw"
       />
 
       <div className="absolute top-8 right-8 z-10">
