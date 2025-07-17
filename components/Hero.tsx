@@ -17,7 +17,7 @@ import MorphingText from "./ui/morphing-text";
 import SparklesText from "./ui/sparkles-text";
 
 export default function Hero() {
-  const texts = ["Full Stack Developer", "ML Enthusiast"];
+  const texts = ["Frontend Developer", "ML Engineer","Web3 Developer","FOSS Enthusiast","AI Tools Expert"];
 
   return (
     <div className="h-screen relative bg-[#0e0e0e] overflow-hidden flex flex-col items-center justify-center px-4">
@@ -46,7 +46,7 @@ export default function Hero() {
           transition={{
             repeat: Infinity,
             repeatType: "mirror",
-            duration: 3,
+            duration: 1.5,
             ease: "easeInOut",
           }}
         />
