@@ -9,7 +9,7 @@ const About: React.FC = () => {
           About Me
         </h2>
         <p className="mt-4 text-neutral-200 mx-auto text-base xl:text-lg font-medium">
-  I am a <b>Hyderabad-based AI developer</b> with a strong technical foundation and a growing specialization in <b>deep learning and artificial intelligence</b>. My work spans across building robust, visually engaging web applications and exploring the transformative capabilities of machine learning systems.  
+  I am a <b>Hyderabad-based AI developer</b> with a strong technical foundation and a growing specialization in <b>deep learning and artificial intelligence</b>. My work spans across building robust, visually engaging full stack web applications and exploring the transformative capabilities of machine learning systems.  
   <br /><br />
   As the <b>Tech Lead of the Algorand Blockchain Committee</b> and an active <b>Web3 contributor</b>, I’m deeply involved in decentralized technologies and blockchain development. My experience includes developing open-source solutions, mentoring peers, and leading innovation in hackathon environments—earning recognition as a <b>3× Hackathon Winner</b> and <b>Smart India Hackathon 2024 Finalist</b>.  
   and a committed <b>FOSS enthusiast</b>
