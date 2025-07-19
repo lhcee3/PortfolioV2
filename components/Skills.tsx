@@ -6,7 +6,7 @@ const Skills = () => {
     <div className="mx-8 overflow-hidden">
       <div className="max-w-5xl mx-auto my-2 px-0 sm:px-6 py-6 border-neutral-600 border-2 rounded-lg flex gap-0 sm:gap-4 items-center bg-foreground sm:flex-row flex-col">
         <div className="p-4 w-11/12">
-          <div className="lg:text-4xl text-3xl font-extrabold mb-8 font-recoleta">
+          <div className="lg:text-4xl text-3xl mb-8 font-recoleta">
             Skills
           </div>
           <div className="flex gap-2 flex-wrap">

@@ -17,7 +17,7 @@ import MorphingText from "./ui/morphing-text";
 import SparklesText from "./ui/sparkles-text";
 
 export default function Hero() {
-  const texts = ["Frontend Developer", "ML Engineer","Web3 Developer","FOSS Enthusiast","AI Tools Expert"];
+  const texts = ["Frontend Developer", "ML Engineer","Web3 Developer",];
 
   return (
     <div className="h-screen relative bg-[#0e0e0e] overflow-hidden flex flex-col items-center justify-center px-4">
@@ -46,7 +46,7 @@ export default function Hero() {
           transition={{
             repeat: Infinity,
             repeatType: "mirror",
-            duration: 1.5,
+            duration: 1.8,
             ease: "easeInOut",
           }}
         />
@@ -84,28 +84,28 @@ export default function Hero() {
       <GridBeam className="flex items-center justify-center flex-col max-w-lg h-1/2">
         <div>
           <h1
-            className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2 relative z-10 text-center font-recoleta"> Tanishka Deep </h1>
+            className="text-5xl sm:text-5xl lg:text-6xl mb-2 relative z-10 text-center font-recoleta"> Sai Aneesh </h1>
           <MorphingText
             texts={texts}
             className="text-xl lg:text-2xl text-neutral-400 mb-4 relative z-10 font-medium text-center"
           />
           <div className="flex justify-center items-center gap-4 relative z-10">
             <a
-              href="https://github.com/tanishkadeep"
+              href="https://github.com/lhcee3"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub className="text-2xl hover:scale-110" />
             </a>
             <a
-              href="https://www.linkedin.com/in/tanishkadeep/"
+              href="https://www.linkedin.com/in/saianeeshg90/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedinIn className="text-2xl hover:scale-110" />
             </a>
             <a
-              href="mailto:tanishkadeep09@gmail.com"
+              href="mailto:gspamad@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
