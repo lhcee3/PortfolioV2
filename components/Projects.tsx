@@ -68,7 +68,7 @@ const projects = [
 const Projects = () => {
   return (
     <div className="max-w-6xl mx-auto mt-12 xl:mt-20 mb-12 px-6 sm:px-16">
-      <div className="text-3xl xl:text-5xl font-recoleta text-center">
+      <div className="text-3xl xl:text-5xl font-recoleta text-left">
         Projects
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
