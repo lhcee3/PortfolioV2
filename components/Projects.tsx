@@ -81,6 +81,7 @@ const projects = [
       "Zod",
     ],
   },
+  
 ];
 
 const Projects = () => {
