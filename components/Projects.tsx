@@ -1,29 +1,29 @@
 import { FaGithub } from "react-icons/fa6";
 import Image from "next/image";
 import Textre from "@/public/images/Textre.png";
-import Regal from "@/public/images/regal.png";
-import Bytes from "@/public/images/bytes.png";
-import ContiqAI from "@/public/images/contiqai.png";
+import web3 from "@/public/images/web3.png";
+import interview from "@/public/images/interview.png";
+import dss from "@/public/images/dss.png";
 import Chattr from "@/public/images/chattr.png";
-import Page from "@/public/images/page.png";
+
 import Link from "next/link";
 
 const projects = [
   {
-    title: "Regal Estate",
+    title: "Web 3 Faucet",
     description:
-      "A secure full-stack real estate app with dynamic property listings, detailed property pages, and landlord contact features, enhancing user engagement and efficiency.",
-    image: Regal,
-    liveLink: "https://regal-estate.vercel.app/",
-    githubLink: "https://github.com/tanishkadeep/Regal-Estate",
+      "A React-based web app for sending SOL tokens via connected Solana wallets like Phantom or Backpack. It features wallet integration, SOL transfers, and optional message signing.",
+    image: web3,
+    liveLink: "https://web3-faucet-two.vercel.app/connect",
+    githubLink: "https://github.com/lhcee3/web3-faucet",
     tags: [
-      "Pussy",
-      "Zod",
-      "JWT",
-      "TypeScript",
-      "Firebase",
+      "React",
+      "Tailwind",
+      "Solana",
+      "Wallet Adapter",
+      "bs-58",
       "bcryptjs",
-      "Tailwind CSS",
+      "noble-ed25519",
     ],
   },
 
@@ -46,22 +46,22 @@ const projects = [
   },
 
   {
-    title: "Modern SaaS Landing Page",
+    title: "InterView Buddy",
     description:
-      "A modern SaaS landing page using Tailwind CSS, TypeScript, Next.js, and Framer Motion to create a visually appealing user interface with engaging animations.",
-    image: Page,
-    liveLink: "https://landing-page-rho-hazel.vercel.app/",
-    githubLink: "https://github.com/tanishkadeep/landing-page",
-    tags: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
+      "Interview Buddy is a website project designed to help you prepare for job interviews by integrating AI models. The platform offers a sleek and modern experience, allowing you to practice with AI-driven mock interviews.",
+    image: interview,
+    liveLink: "https://interview-blond-mu.vercel.app/sign-in",
+    githubLink: "https://github.com/lhcee3/InterView",
+    tags: ["Next.js", "Firebase", "Tailwind CSS", "Vapi API", "Google Gemini", "Zod"],
   },
   {
-    title: "Chattr",
+    title: "DSS Landing Page",
     description:
-      "An anonymous chat application enabling private, temporary conversations between users with real-time communication.",
-    image: Chattr,
-    liveLink: "https://chattr-orpin.vercel.app/",
-    githubLink: "https://github.com/tanishkadeep/chattr",
-    tags: ["React.js", "ws", "Node.js", "TypeScript", "Render", "Vercel"],
+      "Active Contributor for the Official Landing Page for DSS (Developers Students Society), our college's official student chapter.Fully deployed with AWS and Worflow CI/CD with Github Actions.",
+    image: dss,
+    liveLink: "https://club.dssvjit.in",
+    githubLink: "https://github.com/dssvjit/shiny-garbanzo",
+    tags: ["React.js", "CI/CD", "Node.js", "TypeScript", "Github Actions", "AWS"],
   },
 ];
 
