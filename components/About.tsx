@@ -9,21 +9,12 @@ const About: React.FC = () => {
           About Me
         </h2>
         <p className="mt-4 text-neutral-200 mx-auto text-base xl:text-lg font-medium">
-          {" "}
-          I am a <b>Bangalore-based full-stack developer </b>specializing in{" "}
-          <b>AI&ML</b>, currently pursuing a B.E. at Ramaiah Institute of
-          Technology (CGPA: <b>9.5/10</b>). Skilled in{" "}
-          <b>React, Next.js, TypeScript, Python, and Node.js</b>, I create
-          scalable, user-friendly web applications. My projects include Regal
-          Estate (real estate platform), Bytes (blogging app) and ContiqAI
-          (AI-powered tool to create content).
-          <br />
-          During my internship at <b>Larsen & Toubro Defence</b>, I gained
-          hands-on experience in synthetic data generation, computer vision, and
-          predictive maintenance, while optimizing algorithms for real-time
-          applications. Passionate about innovation and continuous learning, I
-          bring strong technical skills and problem-solving to every endeavor.{" "}
-        </p>
+  I am a <b>Hyderabad-based AI developer</b> with a strong technical foundation and a growing specialization in <b>deep learning and artificial intelligence</b>. My work spans across building robust, visually engaging web applications and exploring the transformative capabilities of machine learning systems.  
+  <br /><br />
+  As the <b>Tech Lead of the Algorand Blockchain Committee</b> and an active <b>Web3 contributor</b>, I’m deeply involved in decentralized technologies and blockchain development. My experience includes developing open-source solutions, mentoring peers, and leading innovation in hackathon environments—earning recognition as a <b>3× Hackathon Winner</b> and <b>Smart India Hackathon 2024 Finalist</b>.  
+  and a committed <b>FOSS enthusiast</b>
+</p>
+
       </WobbleCard>
     </div>
   );

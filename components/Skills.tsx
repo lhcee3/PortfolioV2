@@ -21,12 +21,23 @@ const Skills = () => {
             <TechStackButton name="Prisma" icon="bg-pink-500" />
             <TechStackButton name="MongoDB" icon="bg-green-500" />
             <TechStackButton name="C" icon="bg-violet-500" />
-            <TechStackButton name="C++" icon="bg-red-500" />
+            <TechStackButton name="Solidity" icon="bg-red-500" />
             <TechStackButton name="Python" icon="bg-cyan-600" />
             <TechStackButton name="Framer Motion" icon="bg-fuchsia-400" />
             <TechStackButton name="shadcn/ui" icon="bg-stone-300" />
             <TechStackButton name="Git" icon="bg-lime-200" />
             <TechStackButton name="Docker" icon="bg-blue-500" />
+            <TechStackButton name="AWS" icon="bg-red-500" />
+            <TechStackButton name="Github Actions" icon="bg-green-500" />
+            <TechStackButton name="Firebase" icon="bg-orange-500" />
+            <TechStackButton name="Supabase" icon="bg-yellow-500" />
+            <TechStackButton name="Socket.io" icon="bg-cyan-500" />
+            <TechStackButton name="Vercel" icon="bg-turmeric-500" />
+            <TechStackButton name="Render" icon="bg-teal-500" />
+            <TechStackButton name="Algorand" icon="bg-green-500" />
+            <TechStackButton name="Google Gemini" icon="bg-blue-500" />
+            <TechStackButton name="Zod" icon="bg-pink-500" />
+            <TechStackButton name="Prisma" icon="bg-yellow-500" />
           </div>
         </div>
 
