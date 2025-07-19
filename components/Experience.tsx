@@ -25,7 +25,7 @@ const Experience: React.FC = () => {
 
         <p className="mt-4 text-base xl:text-lg font-medium">
           Interned at the prestigious Summer of AI 2025 (SoAI) internship program by VISWAM.AI, in collaboration with 
-          IIIT Hyderabad — one of India's most esteemed research institutions. Gained hands-on experience in AI and 
+          IIIT Hyderabad — one of India&apos;s most esteemed research institutions. Gained hands-on experience in AI and 
           machine learning through real-world projects involving Python, DevOps, and collaborative software practices. 
           Worked on locally sourced data, fine-tuned AI models, and contributed to impactful applications within an 
           open-source and innovation-driven ecosystem.
