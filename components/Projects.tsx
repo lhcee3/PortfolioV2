@@ -63,25 +63,6 @@ const projects = [
     githubLink: "https://github.com/tanishkadeep/chattr",
     tags: ["React.js", "ws", "Node.js", "TypeScript", "Render", "Vercel"],
   },
-  {
-    title: "Bytes",
-    description:
-      "A full-stack blogging app inspired by Medium, with JWT authentication, TypeScript and Zod validation, and scalable deployment via Vercel and Cloudflare Workers.",
-    image: Bytes,
-    liveLink: "https://bytes-kohl.vercel.app/",
-    githubLink: "https://github.com/tanishkadeep/Bytes",
-    tags: [
-      "React.js",
-      "PostgreSQL",
-      "Prisma",
-      "Hono",
-      "TypeScript",
-      "Cloudflare Workers",
-      "Vercel",
-      "Zod",
-    ],
-  },
-  
 ];
 
 const Projects = () => {
