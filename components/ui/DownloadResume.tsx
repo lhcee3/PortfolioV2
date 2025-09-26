@@ -3,20 +3,6 @@ import React from "react";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const DownloadResume: React.FC = () => {
-  // const [isDownloading, setIsDownloading] = useState(false);
-
-  // const handleDownload = () => {
-  //   setIsDownloading(true);
-  //   // Create a link element to trigger the download
-  //   const link = document.createElement("a");
-  //   link.href = "/Tanishka_Deep.pdf"; // Updated path to the PDF file
-  //   link.download = "Tanishka_Deep.pdf";
-  //   document.body.appendChild(link);
-  //   link.click();
-  //   document.body.removeChild(link);
-  //   setIsDownloading(false);
-  // };
-
   return (
     <Link
       href="https://blush-tracey-81.tiiny.site"
