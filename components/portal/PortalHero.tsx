@@ -28,8 +28,8 @@ const PortalHero = () => {
             key={i}
             className="absolute w-1 h-1 bg-white/20 rounded-full"
             initial={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
+              x: typeof window !== 'undefined' ? Math.random() * window.innerWidth : 0,
+              y: typeof window !== 'undefined' ? Math.random() * window.innerHeight : 0,
             }}
             animate={{
               x: mousePosition.x + (Math.random() - 0.5) * 200,
